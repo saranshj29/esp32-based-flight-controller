@@ -7,4 +7,4 @@ I have chosen ESP32 as a flight controller mainly because of its cost, wifi & BL
 2. receiver_pwm_esp32 - This code is independently to test the receiver & transmitter signals on serial monitor. connect the receiver to the esp32 board as mentioned in the schematic.
 3. measure_angles_mpu - IMU angle checker, connect the imu to the esp32 via the i2c protocal as mentioned in the schematic.
 4. Motors calibration - The motor's ESCs have to be calibrated before the flight, such that they start simultaneously, run this code first and calibrate your ESC as per the proper procedure.
-# note- some parts of code have been taken from different sources for more depth about code please check them out
+ note- some parts of code have been taken from different sources for more depth about code please check them out
